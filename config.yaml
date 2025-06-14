@@ -1,0 +1,14 @@
+server_settings:
+  interface_name: "kh0"
+  private_key: "your_private_key"
+  public_ip: "your_public_ip"
+  kh_ip: "kurohabaki_ip"
+  port: wireguard_port
+  kh_nw_range: "kurohabaki_network_range/prefix"
+  etcd:
+    listen-client-ip: "etcd_listen_ip"
+    listen-client-port: etcd_listen_port
+    advertise-client-ip: "etcd_advertise_ip"
+    advertise-client-port: etcd_advertise_port
+    etcd-endpoint-ip: "local_etcd_endpoint_ip"
+    etcd-endpoint-port: "local_etcd_endpoint_port"
