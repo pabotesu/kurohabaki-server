@@ -14,8 +14,6 @@ import (
 	"github.com/pabotesu/kurohabaki-server/internal/etcd"
 	"github.com/pabotesu/kurohabaki-server/internal/ipalloc"
 	"github.com/pabotesu/kurohabaki-server/internal/wg"
-	// ←実際の import パスに置き換えてください
-	// server public keyを生成してる場所
 )
 
 var nodeAddCmd = &cobra.Command{
